@@ -13,13 +13,13 @@ clear:
 	rm -f *~
 
 debug: perf.c
-	$(CC) $(CFLAGS) -ggdb3 perf.c -o perf.dgb
+	$(CC) $(CFLAGS) -ggdb3 perf.c -o perf
 
 o1: perf.c
-	$(CC) $(CFLAGS) -O1 perf.c -o perf.o1
+	$(CC) $(CFLAGS) -O1 perf.c -o perf
 
 o2: perf.c
-	$(CC) $(CFLAGS) -O2 perf.c -o perf.o2
+	$(CC) $(CFLAGS) -O2 perf.c -o perf
 
 o3: perf.c
-	$(CC) $(CFLAGS) -O3 perf.c -o perf.o3
+	$(CC) $(CFLAGS) -O3 perf.c -o perf
