@@ -1,0 +1,41 @@
+-----------------------------
+Cache Bandwidth Measurement
+-----------------------------
+Time(s) = 0.006101
+Num of iters: 1000
+Data = 62MB
+Bandwidth = 10.74GBps
+./perf 32 1 1000
+----------------------------
+Time(s) = 0.001751
+Num of iters: 1000
+Data = 62MB
+Bandwidth = 37.43GBps
+./perf 32 2 1000
+----------------------------
+Time(s) = 0.001736
+Num of iters: 1000
+Data = 93MB
+Bandwidth = 56.61GBps
+./perf 32 3 1000
+----------------------------
+Main Memory Bandwidth Measurement
+-----------------------------
+./perf 4194304 1 1000
+Time(s) = 4.604504
+Num of iters: 1000
+Data = 70000MB
+Bandwidth = 15.94GBps
+-----------------------------
+./perf 4194304 2 1000
+Time(s) = 3.566904
+Num of iters: 1000
+Data = 70000MB
+Bandwidth = 20.58GBps
+-----------------------------
+./perf 4194304 3 1000
+Time(s) = 3.541490
+Num of iters: 1000
+Data = 105000MB
+Bandwidth = 31.09GBps
+-----------------------------
